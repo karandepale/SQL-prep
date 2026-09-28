@@ -1,1 +1,3 @@
 SQL Intro:
+SQL (Structured Query Language) is a standard language used to store, retrieve, manipulate, and manage data in relational databases. It allows developers to perform operations such as creating tables, inserting and updating data, querying records, joining tables, and generating reports.
+SQL is widely used with databases such as SQL Server, MySQL, PostgreSQL, and Oracle and is an essential skill for backend developers working with data-driven applications.
