@@ -1,0 +1,21 @@
+Delete:
+Delete is the Data manipulation language command. It is used to remove specific rows or all rows from a table.
+(1) Remove rows one by one.
+(2) can be rolled back using a transaction.
+(3) Supports the WHERE clause.
+
+
+Truncate:
+Truncate is a Data definition language command. It is used to remove all records from a table quickly.
+(1) Remove all rows at once.
+(2) Can be rolled back using a transaction.
+(3) Does not support the WHERE clause.
+
+
+Drop:
+DROP is a Data definition language command. It is used to permanently database objects such as tables, views, database, SP.
+(1) Remove both data and table structure.
+(2) Can be rolled back using a transaction.
+
+
+
