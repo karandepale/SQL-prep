@@ -1,0 +1,20 @@
+JOINS:
+JOINS are used to combine data from one or more tables based on a related column between them.
+
+Types:
+(1) Inner join: It return all the matching rows from both the tables.
+
+(2) Left join: It returns all the data from left table and only matching data from
+right table.
+
+(3) Right Join: It returns all the data from right table and only matching data
+from left table.
+
+(4) Full outer join: Return all the data from both the tables whether they 
+matched or not.
+
+(5) Cross join: Returns the cartesian product of two tables.
+
+(6) Self join: Join a table with itself. commonly used for hierarchical data such as 
+Employee-Manager reltionship.
+
