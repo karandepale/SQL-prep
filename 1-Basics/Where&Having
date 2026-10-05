@@ -1,0 +1,22 @@
+WHERE: 
+Where is used to filter the rows based on a condition before grouping and
+aggregation are performed.
+
+(1) Execute before GroupBy
+(2) Cannot use aggregate1 functions such as: SUM(), AVG(), MIN(), MAX(), COUNT().
+
+Eg:
+Select * from TableName
+Where columnName > 200;
+
+
+HAVING:
+HAVING is sued to filter groups after grouping and aggregate function are p1erformed.
+(1) Executes after GroupBy
+(2) Can use Aggregate functions.
+
+Eg:
+Select DepartmentID , Count(*)
+From Employees
+Group By DepartmentID
+Having Count(*) > 5;
