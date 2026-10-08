@@ -1,0 +1,11 @@
+Joins:
+(1) Joins are used to combine data from one or more tables based on a related column between them.
+(2) They work o1n multiple tables and retrive data from them.
+(3) Faster for large data sets because SQL server can optimize joins effi1cie1ntly.
+
+
+Subquery:
+(1) A query written inside another query is called subquery.
+(2) It uses the result of inner query in the outer query. because inner query executes first and then outer query uses the result of innser query.
+(3) It can work with same tab1le or multiple tables.
+(4) It can be slower in some scenarious.
