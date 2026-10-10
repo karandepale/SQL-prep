@@ -1,0 +1,25 @@
+UNION & UNIONALL
+Union and union all both are used to combine the resultset of two or more SELECT statements.
+
+Union: 
+Union is used to combine the resultset of two or more Select statements. and filter the duplicate data. and it is Slower than the UnionAll.
+
+Eg:
+SELECT EmployeeName
+FROM Employees2024
+UNION
+SELECT EmployeeName
+FROM Employees2025;
+
+
+
+Union ALL:
+Union All is also used to combine the resultset of two or more SELECT statement without filter the duplicate data.
+It is more faster than the Unio.
+
+Eg:
+SELECT EmployeeName
+FROM Employees2024
+UNION ALL
+SELECT EmployeeName
+FROM Employees2025;
