@@ -1,0 +1,9 @@
+Null:
+Null in SQL represents an unknown, missing, and unavailabale value.
+We use "IS Null" to check for null. and "Is Not Null" to check for non-null values.
+We should not use the "= Null" or "! Null" .
+
+Eg:
+SELECT * FROM Employees WHERE Salary IS NULL;
+SELECT * FROM Employees WHERE Salary IS NOT NULL;
+
