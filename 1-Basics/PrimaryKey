@@ -1,0 +1,15 @@
+Primary key:
+(1) Primary key is an unique i1dentifie1r of each roe in the table.
+(2) It cannot be null.
+(3) Must be unique.
+(4) A table can have only one primary key constraint. but it can consist one or multiple columns.
+(5) In SQL server primary key create a unique index. By default it is clustered if no cluster index is cretaed.
+
+Eg:
+CREATE TABLE Employees
+(
+    EmployeeId INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Salary DECIMAL(10, 2)
+);
+
