@@ -1,0 +1,22 @@
+Foreign Key:
+(1) A foreign key is a column in one table that points to the primary key of another table. 
+    It creates a relationship between two tables.
+
+(2) It maintain referential integrity. Means cannot delete parent row if child record exist.
+
+(3) It ensure data consistency. Means no mismatch between parent child.
+
+(4) Restrict invalid data  insertion.
+
+Eg:
+CREATE TABLE Departments (
+    DepartmentId INT PRIMARY KEY,
+    DepartmentName VARCHAR(50)
+);
+
+CREATE TABLE Employees (
+    EmployeeId INT PRIMARY KEY,
+    Name VARCHAR(50),
+    DepartmentId INT FOREIGN KEY
+        REFERENCES Departments(DepartmentId)
+);
